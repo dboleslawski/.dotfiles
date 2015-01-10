@@ -1,14 +1,21 @@
-#load antigen
-source $HOME/.dotfiles/shell/antigen/antigen.zsh
+#load zgen
+source ~/.dotfiles/shell/zgen/zgen.zsh
 
-#load various lib files
-antigen bundle robbyrussell/oh-my-zsh lib/
+#check if there's no init script
+if ! zgen saved; then
+    echo 'creating a zgen save'
 
-#load other plugins
-antigen bundle git
-antigen bundle unixorn/autoupdate-antigen.zshplugin
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle tarruda/zsh-autosuggestions
+    zgen oh-my-zsh
+
+    #plugins
+    zgen oh-my-zsh plugins/git
+    zgen oh-my-zsh plugins/sudo
+    zgen load zsh-users/zsh-syntax-highlighting
+    zgen load tarruda/zsh-autosuggestions
+
+    #save all to init script
+    zgen save
+fi
 
 #load theme
-antigen theme $HOME/.dotfiles/shell/theme/ db
+source ~/.dotfiles/shell/theme/db.zsh-theme
