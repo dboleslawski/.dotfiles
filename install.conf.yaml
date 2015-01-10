@@ -6,4 +6,4 @@
         path: shell/zshrc
 
 - shell:
-    - ['git submodule update --init --recursive', 'Installing/updating submodules']
+    - ['git submodule update --init --recursive', 'installing/updating submodules']
