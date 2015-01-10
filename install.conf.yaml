@@ -1,6 +1,9 @@
-- clean: ["~"]
+- clean: ['~']
 
 - link:
-	~/.zshrc: zshrc
+    ~/.zshrc: 
+        force: true
+        path: zshrc
 
-- shell: ["git submodule update --init --recursive", "Installing/updating submodules"]
+- shell:
+    - ['git submodule update --init --recursive', 'Installing/updating submodules']
