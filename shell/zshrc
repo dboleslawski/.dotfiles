@@ -19,3 +19,6 @@ fi
 
 #load theme
 source ~/.dotfiles/shell/theme/db.zsh-theme
+
+#load aliases
+source ~/.dotfiles/shell/aliases

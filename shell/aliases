@@ -1,0 +1,3 @@
+#general stuff
+alias ..='cd ..'
+alias pls='sudo'
