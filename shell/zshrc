@@ -9,7 +9,6 @@ if ! zgen saved; then
 
     #plugins
     zgen oh-my-zsh plugins/git
-    zgen oh-my-zsh plugins/sudo
     zgen load zsh-users/zsh-syntax-highlighting
     zgen load tarruda/zsh-autosuggestions
 
@@ -17,8 +16,11 @@ if ! zgen saved; then
     zgen save
 fi
 
-#load theme
-source ~/.dotfiles/shell/theme/db.zsh-theme
+#load shortcuts
+source ~/.dotfiles/shell/shortcuts
 
 #load aliases
 source ~/.dotfiles/shell/aliases
+
+#load theme
+source ~/.dotfiles/shell/desu.zsh-theme
