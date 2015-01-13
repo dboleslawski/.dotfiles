@@ -18,4 +18,4 @@ fi
 #load aliases, shortcuts and theme
 source ~/.dotfiles/shell/aliases
 source ~/.dotfiles/shell/shortcuts
-source ~/.dotfiles/shell/desu.zsh-theme
+source ~/.dotfiles/shell/theme

@@ -1,3 +1,6 @@
+- shell: 
+    - [chsh -s /bin/zsh, changing shell to zsh]
+
 - clean: ['~']
 
 - link:
@@ -6,4 +9,4 @@
         path: shell/zshrc
 
 - shell:
-    - ['git submodule update --init --recursive', 'installing/updating submodules']
+    - [git submodule update --init --recursive, installing/updating submodules]
