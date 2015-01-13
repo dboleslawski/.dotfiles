@@ -1,4 +1,3 @@
-#load zgen
 source ~/.dotfiles/shell/zgen/zgen.zsh
 
 #check if there's no init script
@@ -16,11 +15,7 @@ if ! zgen saved; then
     zgen save
 fi
 
-#load shortcuts
-source ~/.dotfiles/shell/shortcuts
-
-#load aliases
+#load aliases, shortcuts and theme
 source ~/.dotfiles/shell/aliases
-
-#load theme
+source ~/.dotfiles/shell/shortcuts
 source ~/.dotfiles/shell/desu.zsh-theme
