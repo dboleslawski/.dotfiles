@@ -1,0 +1,17 @@
+{
+	"theme": "Spacegray Eighties.sublime-theme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+
+	"font_face": "M+ 1m",
+	"font_size": 13,
+	"line_padding_bottom": -3,
+	"line_padding_top": 0,
+
+	"caret_style": "phase",
+	"highlight_line": true,
+	"open_files_in_new_window": false,
+
+	"ignored_packages": [
+		"Vintage"
+	]
+}

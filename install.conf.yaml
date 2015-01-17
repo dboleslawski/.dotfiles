@@ -1,12 +1,7 @@
-- shell: 
-    - [chsh -s /bin/zsh, changing shell to zsh]
-
 - clean: ['~']
 
 - link:
-    ~/.zshrc: 
-        force: true
-        path: shell/zshrc
-
+    ~/.zshrc: shell/zshrc
+    ~/Library/Application Support/Sublime Text 3/Packages/User: sublime
 - shell:
     - [git submodule update --init --recursive, installing/updating submodules]
