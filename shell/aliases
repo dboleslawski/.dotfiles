@@ -7,9 +7,13 @@ alias ~='cd ~'
 alias pls='sudo'
 
 #show/hide hidden stuff in finder
-alias hidefiles='defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder'
-alias showfiles='defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder'
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder'
 
 #show/hide desktop icons
-alias hidedesktop='defaults write com.apple.finder CreateDesktop -bool false && killall Finder'
-alias showdesktop='defaults write com.apple.finder CreateDesktop -bool true && killall Finder'
+alias hideDesktop='defaults write com.apple.finder CreateDesktop -bool false && killall Finder'
+alias showDesktop='defaults write com.apple.finder CreateDesktop -bool true && killall Finder'
+
+#show/hide shadow on screenshots
+alias hideShadowScreenshot='defaults write com.apple.screencapture disable-shadow -bool true && killall SystemUIServer'
+alias showShadowScreenshot='defaults write com.apple.screencapture disable-shadow -bool false && killall SystemUIServer'
