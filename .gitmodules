@@ -1,6 +1,0 @@
-[submodule "dotbot"]
-	path = dotbot
-	url = https://github.com/anishathalye/dotbot
-[submodule "shell/zgen"]
-	path = shell/zgen
-	url = https://github.com/tarjoilija/zgen

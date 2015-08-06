@@ -1,7 +1,0 @@
-- clean: ['~']
-
-- link:
-    ~/.zshrc: shell/zshrc
-    ~/Library/Application Support/Sublime Text 3/Packages/User: sublime
-- shell:
-    - [git submodule update --init --recursive, installing/updating submodules]

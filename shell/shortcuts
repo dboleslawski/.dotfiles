@@ -1,8 +1,0 @@
-#[esc][esc] for pls (alias for sudo)
-sudo-command-line() {
-	[[ -z $BUFFER ]] && zle up-history
-	[[ $BUFFER != pls\ * ]] && BUFFER="pls $BUFFER"
-	zle end-of-line 
-}
-zle -N sudo-command-line
-bindkey '\e\e' sudo-command-line
