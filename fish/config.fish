@@ -7,8 +7,8 @@ alias ~ 'cd ~'
 alias pls 'sudo'
 
 #show/hide hidden stuff in finder
-alias hideFiles 'defaults write com.apple.finder AppleShowAllFiles -bool false; and killall Finder'
-alias showFiles 'defaults write com.apple.finder AppleShowAllFiles -bool true; and killall Finder'
+alias hideHidden 'defaults write com.apple.finder AppleShowAllFiles -bool false; and killall Finder'
+alias showHidden 'defaults write com.apple.finder AppleShowAllFiles -bool true; and killall Finder'
 
 #show/hide desktop icons
 alias hideDesktop 'defaults write com.apple.finder CreateDesktop -bool false; and killall Finder'
