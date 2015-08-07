@@ -1,0 +1,6 @@
+- clean: ['~', '~/Library/Keyboard Layouts/']
+- shell:
+        - [git submodule update --init --recursive, installing submodules]
+- link:
+        '~/.config/fish/config.fish': fish/config.fish
+        '~/Library/Keyboard Layouts/qwertyu.keylayout': etc/qwertyu.keylayout
