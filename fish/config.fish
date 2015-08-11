@@ -17,3 +17,6 @@ alias showDesktop 'defaults write com.apple.finder CreateDesktop -bool true; and
 #show/hide shadow on screenshots
 alias hideShadowScreenshot 'defaults write com.apple.screencapture disable-shadow -bool true; and killall SystemUIServer'
 alias showShadowScreenshot 'defaults write com.apple.screencapture disable-shadow -bool false; and killall SystemUIServer'
+
+#fix webcam
+alias fixWebcam 'sudo killall VDCAssistant'
